@@ -49,8 +49,10 @@ header a:hover {
 }
 
 #featured a:hover {
-  
+  text-decoration: underline;
 }
+
+
 
 h1 {
   padding-bottom: 10px;
