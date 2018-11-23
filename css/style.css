@@ -1,5 +1,6 @@
 /*////////////// Fonts //////////////*/
 
+/* link the web font used for the level 1 heading here */
 @font-face {
 	font-family: 'Baskerville';
 	src: url(../fonts/Baskerville.ttc);
@@ -20,31 +21,13 @@ body {
 	padding: 0 45px 20px;
 }
 
-h1 {
-	padding-bottom: 10px;
-	margin: 0 0 5px;
-	font-size: 5em;
-	font-weight: normal;
-	font-family: 'Baskerville', serif;
-	border-bottom: 1px solid #ccc;
-}
+/* Write all remaining styles here */
 
-h2 {
-	color: rgb(111,127,122);
-	font-size: 2em;
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
-
-p  {
-	color: #555;
-	font-size: 1em;
-	margin: 0 0 20px 0;
-}
-
-.small {
-	font-size: 0.8em;
-}
-
-/*////////// Section Styles //////////*/
 
 header a {
 	color: rgb(152,173,166);
@@ -57,31 +40,51 @@ header a:hover {
 
 #featured img {
 	border: 5px rgb(152,173,166) solid;
+	/*max-width: 100%;*/
 }
 
 #featured a {
-	color: #1783bb;
-	text-decoration: none;
+  text-decoration: none;
+  color: #1783bb;
 }
 
 #featured a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 #press {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #press img {
-	border: 5px #ccc solid;
-	padding: 1px;
+  border: 5px solid #ccc;
+  padding: 1px;
 }
 
 #press img:hover {
 	border: 5px rgb(111,127,122) solid;
 }
 
-footer {
-	text-align: right;
-	background: #fff;
+h1 {
+  padding-bottom: 10px;
+  margin: 0 0 5px;
+  font-size: 5em;
+  font-weight: normal;
+  font-family: 'Baskerville', serif;
+  border-bottom: 1px solid #ccc;
+}
+
+h2 {
+  color: rgb(111,127,122);
+  font-size: 2em;
+}
+
+p {
+  color: #555;
+  font-size: 1em;
+  margin: 0 0 20px 0;
+}
+
+.small {
+  font-size: 0.8em;
 }
