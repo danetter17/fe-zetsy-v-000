@@ -23,11 +23,11 @@ body {
 
 /* Write all remaining styles here */
 
-/** {*/
-/*    -webkit-box-sizing: border-box;*/
-/*    -moz-box-sizing: border-box;*/
-/*    box-sizing: border-box;*/
-/*}*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 header a {
 	color: rgb(152,173,166);
