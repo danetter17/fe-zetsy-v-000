@@ -40,7 +40,7 @@ header a:hover {
 
 #featured img {
 	border: 5px rgb(152,173,166) solid;
-	max-width: 100%;
+	/*max-width: 100%;*/
 }
 
 #featured a {
